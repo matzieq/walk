@@ -32,20 +32,20 @@ EXT 11,0 1 11,15
 PAL 0
 
 ROOM 1
-0,0,0,e,b,0,h,0,0,0,0,i,a,0,0,0
-0,0,f,0,b,0,h,0,i,i,i,i,0,0,0,0
-0,0,0,e,b,h,0,i,i,0,0,h,a,h,a,0
-0,0,0,0,b,0,i,i,a,a,0,g,0,a,0,0
+0,0,0,e,b,0,h,0,g,0,0,i,a,0,0,0
+0,0,f,0,b,0,0,0,i,i,i,i,0,0,0,0
+0,0,0,e,b,h,0,i,i,0,0,0,a,h,a,0
+0,0,0,0,b,0,i,i,0,a,0,g,0,0,0,0
 f,0,0,c,d,0,i,a,0,0,0,a,0,h,0,0
-0,0,e,b,0,0,i,i,g,i,i,i,0,g,0,a
-0,0,0,b,0,0,0,i,i,i,0,i,i,a,0,0
+0,0,e,b,g,0,i,i,g,i,i,i,0,0,0,a
+0,0,0,b,0,0,0,i,i,i,0,i,i,0,0,0
 0,0,e,b,h,0,a,0,0,0,0,0,i,0,0,h
-0,0,e,b,0,h,0,0,h,0,0,0,i,i,a,0
-0,0,0,b,0,h,g,0,0,h,0,g,a,i,0,0
-0,f,0,k,j,0,0,a,0,0,0,0,a,i,h,a
-0,0,0,0,k,j,0,h,0,h,0,0,i,i,0,0
+0,0,e,b,0,0,0,0,h,0,0,0,i,i,a,0
+0,0,0,b,0,h,g,0,0,0,0,g,a,i,0,0
+0,f,0,k,j,0,0,a,0,0,0,0,0,i,h,a
+0,0,0,0,k,j,0,0,0,g,0,0,i,i,0,0
 0,0,0,0,e,k,j,0,0,0,a,i,i,0,0,a
-0,0,0,f,0,e,b,0,h,0,0,i,0,0,h,0
+0,0,0,f,0,e,b,0,h,0,0,i,0,0,0,0
 0,f,0,0,0,e,b,0,0,0,0,i,0,0,0,0
 0,0,0,0,0,0,b,0,0,0,0,i,0,h,0,0
 NAME middle
@@ -254,7 +254,7 @@ SPR b
 00110110
 NAME stroller
 DLG 3
-POS 0 8,9
+POS 0 8,6
 
 SPR c
 00111000
@@ -267,7 +267,7 @@ SPR c
 00100100
 NAME woman
 DLG 4
-POS 0 9,9
+POS 0 9,6
 
 SPR d
 00000000
@@ -280,7 +280,90 @@ SPR d
 00000000
 NAME bench
 DLG 5
-POS 0 12,7
+POS 0 12,2
+
+SPR e
+00000000
+00000000
+00000000
+00000000
+00011000
+00011100
+00111000
+00010100
+>
+00000000
+00000000
+00000000
+00000000
+00011000
+00111000
+00011100
+00101000
+NAME child
+DLG 9
+POS 1 13,7
+
+SPR f
+00000000
+00000000
+00000000
+00000000
+00000000
+10100000
+11111100
+11111010
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+10100010
+11111100
+11111000
+NAME cat
+DLG a
+POS 1 10,4
+
+SPR g
+00000000
+00000100
+00001010
+00000100
+00100000
+01010000
+00100000
+00000000
+NAME flowers1
+DLG 8
+POS 1 4,8
+
+SPR h
+00000000
+00000000
+00001000
+00001000
+00011100
+00010100
+00110110
+01110111
+NAME tent
+DLG 7
+POS 1 8,12
+
+SPR i
+00000000
+00000000
+10000010
+01100100
+01111110
+10011001
+10011001
+01100110
+NAME bike
+DLG b
+POS 1 6,2
 
 ITM 0
 00000000
@@ -307,7 +390,7 @@ NAME key
 DLG 2
 
 DLG 0
-It says that this is the 42nd kilometre.{pg}I have no idea from where, or where it's headed.{pg}I've just always liked walking here.{pg}I come here to clear my mind, gather my thoughts, and simply to be somewhere quiet.{pg}I seem to be needing this more and more these days.
+It says that this is the 42nd kilometre.{pg}I have no idea from where, or where it's headed.{pg}I've just always liked walking here.{pg}I come here to clear my mind, gather my thoughts, and simply be somewhere quiet.{pg}I seem to be needing this more and more these days.
 NAME first signpost
 
 DLG 1
@@ -319,11 +402,11 @@ A key! {wvy}What does it open?{wvy}
 NAME key dialog
 
 DLG 3
-The baby is sleeping.{pg}I remember when my son was born.{pg}It was a mixture of utter horror and utter exhilaration.{pg}I wanted to cry and laugh at the same time.{pg}I think I might have done just that.{pg}It's both a strong memory and a blur of barely recallable pictures and feelings.{pg}Human mind is a weird contraption.
+The baby is sleeping.{pg}I remember when my son was born{pg}I felt a mixture of utter horror and utter exhilaration...{pg}I wanted to cry and laugh at the same time.{pg}And I probably did just that. I think.{pg}It's both such a strong memory and a blur of barely recallable pictures and feelings.{pg}Human mind is a weird contraption.
 NAME stroller dialog
 
 DLG 4
-She looks exhausted, but also relieved that he's sleeping.{pg}Before I didn't even notice people with strollers,{pg}and now I look at them and I nod solemnly in understanding.{pg}Sometimes they look back, and I can see in their eyes{pg}that they have only passing memory about what sleep is.
+She looks exhausted, but also relieved that he's sleeping.{pg}Before having my own kid I didn't even notice people with strollers.{pg} Now I look at them and I nod solemnly in understanding.{pg}Sometimes they look back, and I can see in their eyes{pg}that they have only passing memory about what sleep is.
 NAME woman dialog
 
 DLG 5
@@ -334,6 +417,26 @@ DLG 6
 
 NAME exit narration 1
 
-VAR a
-42
+DLG 7
+I'm not sure whether it's even legal to pitch a tent here. Probably not.{pg}But sometimes I dream of pitching my own tent here and sleeping through the night.{pg}All night, just curl up in a sleeping bag and sleep, sleep, sleep.{pg}It's the lack of sleep that really gets to you.{pg}First you think that it's not so bad{pg}then you become irritable and permanently groggy{pg}and everything makes you irrationally angry.{pg}You feel you are slowly going insane{pg}and there's nothing you can do.
+NAME tent dialog
+
+DLG 8
+This valley is a miracle.{pg}A high traffic road is just up the hill to the west{pg}and the city centre is literally two tram stops away.{pg}Yet, here we are, in a nature preserve in the middle of a pretty big capital city.
+NAME flowers1 dialog
+
+DLG 9
+I see other children differently now, too.{pg}Funny, how their yelling and running around stopped irritating me{pg}I just smile and move on.{pg}It's different for your own child, though.{pg}Sometimes the yelling and whining seems never to stop{pg}and it drives you crazy, because you WANT to give the baby what it wants{pg}Problem is, the baby itself doesn't know what it wants.{pg}And so you get angry, and start yelling yourself{pg}and then you calm down and feel like the worst human scum.{pg}The little human has feelings it doesn't understand{pg}and now you're angry at it for no apparent reason.{pg}And so everyone is miserable.{pg}Sigh...
+NAME child dialog
+
+DLG a
+We call our cat the "family therapis".{pg}She comes to you, and with just a look can switch you from{pg}"I've had enough" to "Okay, let's keep on trudging forward".{pg}"I've had enough" is a thought you start having worryingly often.{pg}It takes effor to snap out of it.
+NAME cat dialog
+
+DLG b
+The valley has a very long bike road, too.{pg}I used to bike here with my wife often.{pg}Now we can't really do it.{pg}Another piece of our life we lost.{pg}She had it much worse than me, but somehow we keep on going.{pg}She's the best thing that ever happened to me, and there's nothing worse than to
+NAME bike dialog
+
+VAR thoughts
+0
 
