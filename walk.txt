@@ -28,26 +28,28 @@ f,0,0,0,0,0,b,0,0,g,i,0,0,g,0,0
 0,f,0,0,b,0,0,0,i,0,0,a,0,0,h,0
 0,0,0,0,b,0,0,0,i,0,0,0,0,0,0,0
 NAME bottom
-EXT 11,0 2 13,13
+EXT 11,0 1 11,15
 PAL 0
 
 ROOM 1
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,e,b,0,0,0,0,0,0,i,0,0,0,0
+0,0,f,0,b,0,0,0,i,i,i,i,0,0,0,0
+0,0,0,e,b,0,0,i,i,0,0,0,0,0,0,0
+0,0,0,0,b,0,i,i,0,0,0,0,0,0,0,0
+f,0,0,c,d,0,i,0,0,0,0,0,0,0,0,0
+0,0,e,b,0,0,i,i,0,i,i,i,0,0,0,0
+0,0,0,b,0,0,0,i,i,i,0,i,i,0,0,0
+0,0,e,b,0,0,0,0,0,0,0,0,i,0,0,0
+0,0,e,b,0,0,0,0,0,0,0,0,i,i,0,0
+0,0,0,b,0,0,0,0,0,0,0,0,0,i,0,0
+0,f,0,k,j,0,0,0,0,0,0,0,0,i,0,0
+0,0,0,0,k,j,0,0,0,0,0,0,i,i,0,0
+0,0,0,0,e,k,j,0,0,0,0,i,i,0,0,0
+0,0,0,f,0,e,b,0,0,0,0,i,0,0,0,0
+0,f,0,0,0,e,b,0,0,0,0,i,0,0,0,0
+0,0,0,0,0,0,b,0,0,0,0,i,0,0,0,0
+NAME middle
+EXT 11,15 0 11,0
 PAL 0
 
 ROOM 2
@@ -66,8 +68,26 @@ ROOM 2
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,i,0,0,0,0
+PAL 0
+
+ROOM 3
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-EXT 13,13 0 11,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 PAL 0
 
 TIL a
@@ -181,6 +201,30 @@ TIL i
 00000000
 NAME path
 
+TIL j
+00000000
+00000000
+01000000
+10100000
+00100000
+00010000
+00001000
+00001000
+NAME bankCorner3
+WAL true
+
+TIL k
+00001000
+00010000
+00101000
+00000100
+00000011
+00000000
+00000000
+00000000
+NAME bankCorner4
+WAL true
+
 SPR A
 00001100
 00001100
@@ -225,7 +269,7 @@ SPR b
 00110110
 NAME stroller
 DLG 3
-POS 0 8,6
+POS 0 8,9
 
 SPR c
 00111000
@@ -237,7 +281,21 @@ SPR c
 00101000
 00100100
 NAME woman
-POS 0 9,6
+DLG 4
+POS 0 9,9
+
+SPR d
+00000000
+00000010
+00000100
+00000100
+00111000
+01000100
+01000100
+00000000
+NAME bench
+DLG 5
+POS 0 12,7
 
 ITM 0
 00000000
@@ -264,7 +322,7 @@ NAME key
 DLG 2
 
 DLG 0
-It says that this is the 42nd kilometre. I have no idea from where, or where it's headed.I've just always liked walking here. I come here to clear my mind, gather my thoughts, and be somewhere quiet.I seem to be needing this more and more these days.
+It says that this is the 42nd kilometre.{pg}I have no idea from where, or where it's headed.{pg}I've just always liked walking here.{pg}I come here to clear my mind, gather my thoughts, and simply to be somewhere quiet.{pg}I seem to be needing this more and more these days.
 NAME first signpost
 
 DLG 1
@@ -276,8 +334,16 @@ A key! {wvy}What does it open?{wvy}
 NAME key dialog
 
 DLG 3
-The baby is sleeping.I remember when my son was born.It was a mixture of utter horror and utter exhilaration.I wanted to cry and laugh at the same time. I think I did just that.
+The baby is sleeping.{pg}I remember when my son was born.{pg}It was a mixture of utter horror and utter exhilaration.{pg}I wanted to cry and laugh at the same time.{pg}I think I might have done just that.{pg}It's both a strong memory and a blur of barely recallable pictures and feelings.{pg}Human mind is a weird contraption.
 NAME stroller dialog
+
+DLG 4
+She looks exhausted, but also relieved that he's sleeping.{pg}Before I didn't even notice people with strollers,{pg}and now I look at them and I nod solemnly in understanding.{pg}Sometimes they look back, and I can see in their eyes{pg}that they have only passing memory about what sleep is.
+NAME woman dialog
+
+DLG 5
+I love this place. This bench just invites you to slow down and be present.{pg}I sit for a while, breathing in the fresh autumn air.{pg}If it weren't for this place, I think I'd have gone crazy a long time ago.{pg}I know I have it good, and that these are first world problems, but sometimes it's just so hard...{pg}Anyway, enough being gloomy, time to go.
+NAME bench dialog
 
 VAR a
 42
