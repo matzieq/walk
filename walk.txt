@@ -72,6 +72,7 @@ ROOM 3
 0,0,0,0,b,0,0,0,0,a,0,i,0,0,0,0
 NAME top
 EXT 11,15 1 11,0
+END c 15,1
 PAL 0
 
 TIL a
@@ -365,6 +366,18 @@ NAME bike
 DLG b
 POS 1 6,2
 
+SPR j
+00000000
+00000000
+00110000
+00111000
+00011100
+00111100
+01001100
+01001010
+NAME old man
+POS 3 9,13
+
 ITM 0
 00000000
 00000000
@@ -422,7 +435,7 @@ I'm not sure whether it's even legal to pitch a tent here. Probably not.{pg}But 
 NAME tent dialog
 
 DLG 8
-This valley is a miracle.{pg}A high traffic road is just up the hill to the west{pg}and the city centre is literally two tram stops away.{pg}Yet, here we are, in a nature preserve in the middle of a pretty big capital city.
+This valley is a miracle.{pg}A high traffic road is just up the hill to the east{pg}and the city centre is literally two tram stops away.{pg}Yet, here we are, in a nature preserve in the middle of a pretty big capital city.
 NAME flowers1 dialog
 
 DLG 9
@@ -430,12 +443,16 @@ I see other children differently now, too.{pg}Funny, how their yelling and runni
 NAME child dialog
 
 DLG a
-We call our cat the "family therapis".{pg}She comes to you, and with just a look can switch you from{pg}"I've had enough" to "Okay, let's keep on trudging forward".{pg}"I've had enough" is a thought you start having worryingly often.{pg}It takes effor to snap out of it.
+We call our cat the "family therapist".{pg}She's so cute and fluffy, and with just a look she can switch you from{pg}"I've had enough" to "Okay, let's keep on trudging forward".{pg}"I've had enough" is a thought you start having worryingly often.{pg}It takes effort to snap out of it.
 NAME cat dialog
 
 DLG b
-The valley has a very long bike road, too.{pg}I used to bike here with my wife often.{pg}Now we can't really do it.{pg}Another piece of our life we lost.{pg}She had it much worse than me, but somehow we keep on going.{pg}She's the best thing that ever happened to me, and there's nothing worse than to
+The valley has a very nice long bike road, too.{pg}I used to bike here with my wife. Now we can't really do it.{pg}Another piece of our life we lost.{pg}She had it much worse than me, there were things I just couldn't help her with{pg}That helplesness is terrible,{pg}worse even than the tiredness{pg}And I really miss the biking...
 NAME bike dialog
+
+DLG c
+The path leads out, back to reality.{pg}Thank you for walking with me. Have a lovely day!
+NAME ending 1
 
 VAR thoughts
 0
