@@ -28,7 +28,7 @@ f,0,0,0,0,0,b,0,0,g,i,0,0,g,0,0
 0,f,0,0,b,0,0,0,i,0,0,a,0,0,h,0
 0,0,0,0,b,0,0,0,i,0,0,0,0,0,0,0
 NAME bottom
-EXT 11,0 1 11,15
+EXT 11,0 4 11,15
 PAL 0
 
 ROOM 1
@@ -49,8 +49,8 @@ f,0,0,c,d,0,i,a,0,0,0,a,0,h,0,0
 0,f,0,0,0,e,b,0,0,0,0,i,0,0,0,0
 0,0,0,0,0,0,b,0,0,0,0,i,0,h,0,0
 NAME middle
-EXT 11,15 0 11,0
 EXT 11,0 3 11,15 DLG 6
+EXT 11,15 5 11,0
 PAL 0
 
 ROOM 3
@@ -73,6 +73,69 @@ f,0,0,e,b,0,0,0,0,0,0,0,i,0,0,a
 NAME top
 EXT 11,15 1 11,0
 END c 15,1
+PAL 0
+
+ROOM 4
+0,0,0,0,b,0,0,0,0,0,0,i,0,g,0,0
+0,f,0,e,b,h,0,0,0,i,i,i,i,0,0,a
+0,0,0,0,b,0,g,h,0,i,i,i,i,0,0,g
+0,0,0,e,k,j,0,0,0,0,0,0,i,0,a,0
+0,0,0,0,e,k,j,g,0,0,0,i,i,0,0,0
+0,0,f,0,e,0,b,0,0,0,i,i,0,h,0,0
+0,0,0,0,0,c,d,i,i,i,i,0,0,0,0,a
+0,0,0,0,0,b,0,i,h,0,0,0,0,a,0,0
+f,0,0,0,e,b,0,i,g,0,0,a,0,0,h,0
+0,0,0,0,0,b,g,i,0,0,h,0,g,0,0,0
+0,0,0,0,e,b,0,i,i,0,0,0,0,0,0,0
+0,f,0,0,e,b,0,0,i,0,a,0,0,a,h,0
+0,0,0,f,0,k,j,0,i,0,0,0,0,0,0,0
+0,0,0,0,0,0,b,h,i,i,i,i,0,0,a,0
+0,0,f,0,0,e,b,0,0,0,0,i,g,0,0,0
+0,0,0,0,0,e,b,0,0,h,0,i,0,0,a,0
+NAME middle2
+EXT 11,15 0 11,0
+EXT 11,0 5 11,15
+PAL 0
+
+ROOM 5
+0,0,0,0,0,0,b,0,h,0,0,i,0,a,0,0
+0,f,0,0,0,0,b,0,0,a,0,i,i,0,g,0
+0,0,0,0,0,e,b,g,0,0,0,0,i,0,0,0
+0,0,0,f,0,0,k,j,h,0,0,i,i,0,a,0
+0,0,0,0,0,e,c,d,0,0,i,i,0,g,h,0
+0,0,0,0,0,c,d,0,0,i,i,0,g,0,0,0
+0,f,0,0,e,b,0,0,i,i,0,0,0,a,0,0
+0,0,0,0,0,b,g,i,i,0,0,0,0,0,0,h
+0,0,0,0,e,b,0,i,g,0,0,a,0,h,0,0
+0,f,0,0,e,b,0,i,i,0,h,0,0,0,0,0
+0,0,0,0,0,b,0,0,i,0,g,a,0,0,a,0
+0,0,0,e,c,d,h,0,i,0,0,0,0,0,g,0
+0,0,0,0,b,h,0,0,i,i,i,i,0,a,0,0
+0,0,f,0,b,0,0,0,0,0,0,i,0,h,0,0
+0,0,0,0,b,0,0,a,0,h,0,i,0,0,a,0
+0,0,0,e,b,0,0,0,0,0,0,i,0,0,0,0
+NAME middle3
+EXT 11,15 4 11,0
+EXT 11,0 1 11,15
+PAL 0
+
+ROOM 6
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 PAL 0
 
 TIL a
@@ -303,7 +366,7 @@ SPR d
 00000000
 NAME bench
 DLG 5
-POS 0 12,2
+POS 4 8,9
 
 SPR e
 00000000
@@ -325,7 +388,7 @@ SPR e
 00101000
 NAME child
 DLG 9
-POS 1 13,7
+POS 5 12,5
 
 SPR f
 00000000
@@ -360,7 +423,7 @@ SPR g
 00000000
 NAME flowers1
 DLG 8
-POS 1 4,8
+POS 5 6,10
 
 SPR h
 00000000
@@ -373,7 +436,7 @@ SPR h
 01110111
 NAME tent
 DLG 7
-POS 1 8,12
+POS 4 13,8
 
 SPR i
 00000000
@@ -386,7 +449,7 @@ SPR i
 01100110
 NAME bike
 DLG b
-POS 1 6,2
+POS 5 11,5
 
 SPR j
 00000000
@@ -399,7 +462,7 @@ SPR j
 01001010
 NAME old man
 DLG f
-POS 3 9,13
+POS 1 5,10
 
 SPR k
 00000000
@@ -447,7 +510,20 @@ SPR m
 00011000
 NAME sundial
 DLG h
-POS 3 5,8
+POS 1 8,4
+
+SPR n
+00000000
+01111100
+01111110
+01111111
+01111110
+01111100
+00010000
+00010000
+NAME sign2
+DLG j
+POS 3 13,1
 
 ITM 0
 00000000
@@ -546,6 +622,10 @@ NAME sundial dialog
 DLG i
 I'm not a huge fan of chess, but one thing I can't wait for{pg}is when I will be able to teach the little guy games{pg}and play with him.{pg}It's already amazing to watch him play with his cars and crayons.{pg}He invents stories, and gives the cars personalities, and then acts them out.{pg}Another thing I cling to with both hands.{pg}It makes the whole undertaking seem worth it in the long run.
 NAME chessboard dialog
+
+DLG j
+This is the road home.{pg}My batteries have recharged a little. But it will get me through the day.{pg}We'll manage.{pg}And we'll become stronger thans to this experience.{pg}Time to go.
+NAME sign2 dialog
 
 VAR thoughts
 0
