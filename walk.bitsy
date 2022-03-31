@@ -54,21 +54,21 @@ EXT 11,0 3 11,15 DLG 6
 PAL 0
 
 ROOM 3
-0,0,0,0,0,0,c,d,0,a,0,0,i,i,i,a
-0,0,0,0,0,c,d,0,0,0,i,i,i,0,i,i
-0,0,0,0,0,b,0,0,h,0,i,0,0,0,g,a
-0,0,0,0,0,b,0,0,h,0,i,i,i,i,0,a
-0,0,0,0,c,d,h,0,0,0,0,0,0,i,a,a
+0,0,0,0,0,e,c,d,0,a,0,0,i,i,i,a
+0,0,0,f,0,c,d,0,0,0,i,i,i,0,i,i
+0,f,0,0,e,b,0,0,h,0,i,0,0,0,g,a
+0,0,0,0,0,b,l,0,m,0,i,i,i,i,0,a
+f,0,0,e,c,d,h,0,0,0,0,0,0,i,a,a
 0,0,0,c,d,g,0,0,0,i,i,i,0,i,0,0
 0,0,0,b,0,0,0,i,i,i,a,i,g,i,0,a
-0,0,0,b,0,0,i,i,0,h,0,i,i,i,0,a
-0,0,0,b,0,0,i,0,a,g,0,0,0,0,h,a
-0,0,0,b,h,0,i,i,0,0,0,g,0,a,0,a
+0,0,e,b,0,0,i,i,0,h,0,i,i,i,0,a
+0,0,e,b,0,0,i,0,a,g,0,0,0,0,h,a
+0,f,0,b,h,0,i,i,0,0,0,g,0,a,0,a
 0,0,0,b,0,g,0,i,i,0,a,0,0,0,a,h
 0,0,0,k,j,0,0,0,i,i,i,i,i,0,h,0
-0,0,0,0,b,0,0,0,0,0,0,0,i,0,0,a
+f,0,0,e,b,0,0,0,0,0,0,0,i,0,0,a
 0,0,0,0,b,0,g,0,0,0,0,i,i,h,0,0
-0,0,0,0,b,0,h,0,g,0,0,i,0,0,a,0
+0,f,0,e,b,0,h,0,g,0,0,i,0,0,a,0
 0,0,0,0,b,0,0,0,0,a,0,i,0,0,0,0
 NAME top
 EXT 11,15 1 11,0
@@ -211,6 +211,28 @@ TIL k
 NAME bankCorner4
 WAL true
 
+TIL l
+00000000
+00010000
+00011100
+00011100
+00011100
+00010100
+00000000
+00000000
+NAME seatLeft
+
+TIL m
+00000000
+00001000
+00111000
+00111000
+00111000
+00101000
+00000000
+00000000
+NAME seatRight
+
 SPR A
 00001100
 00001100
@@ -242,7 +264,7 @@ SPR b
 11110010
 01111100
 00111000
-01111100
+01101100
 01101100
 >
 00000000
@@ -251,7 +273,7 @@ SPR b
 01111001
 00111110
 00011100
-00111110
+00110110
 00110110
 NAME stroller
 DLG 3
@@ -271,13 +293,13 @@ DLG 4
 POS 0 9,6
 
 SPR d
-00000000
-00000010
-00000100
-00000100
-00111000
-01000100
-01000100
+00000110
+00000110
+00111110
+00111110
+00111110
+00111100
+00100100
 00000000
 NAME bench
 DLG 5
@@ -355,10 +377,10 @@ POS 1 8,12
 
 SPR i
 00000000
-00000000
-10000010
-01100100
-01111110
+00000110
+00000010
+01100110
+00111100
 10011001
 10011001
 01100110
@@ -376,7 +398,56 @@ SPR j
 01001100
 01001010
 NAME old man
+DLG f
 POS 3 9,13
+
+SPR k
+00000000
+00000000
+00000000
+00000000
+00010000
+00110000
+00011100
+00001000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00010100
+00111000
+00101000
+NAME crow
+DLG g
+POS 3 14,9
+
+SPR l
+11111111
+11010101
+10101011
+11010101
+10101011
+11111111
+01000010
+01000010
+NAME chessboard
+DLG i
+POS 3 7,3
+
+SPR m
+00000000
+00000100
+00111100
+01001110
+01011110
+01000010
+00111100
+00011000
+NAME sundial
+DLG h
+POS 3 5,8
 
 ITM 0
 00000000
@@ -403,7 +474,7 @@ NAME key
 DLG 2
 
 DLG 0
-It says that this is the 42nd kilometre.{pg}I have no idea from where, or where it's headed.{pg}I've just always liked walking here.{pg}I come here to clear my mind, gather my thoughts, and simply be somewhere quiet.{pg}I seem to be needing this more and more these days.
+It says that this is the 42nd kilometre.{pg}I have no idea from where, or where it's headed.{pg}I've just always liked walking here.{pg}I come here to clear my mind, gather my thoughts, and simply be somewhere quiet.{pg}I seem to be needing this more and more these days.{thoughts = thoughts + 1}
 NAME first signpost
 
 DLG 1
@@ -453,6 +524,28 @@ NAME bike dialog
 DLG c
 The path leads out, back to reality.{pg}Thank you for walking with me. Have a lovely day!
 NAME ending 1
+
+DLG d
+ 
+
+DLG e
+ 
+
+DLG f
+I know it will all pass and everything will return to normal at some point.{pg}In fact, I'm very much looking forward to it.{pg}But sometimes, deep down, I worry that when thing finally get normal{pg}I'll be too old and frail to do anything about it...
+NAME old man dialog
+
+DLG g
+There are a lot of crows here, especially in the autumn.{pg}One day we went here together with my son, and there was a giant tree covered with crows{pg}who were very loudly discussing some issues of utmost importance.{pg}The little guy was so fascinated, he told me to position his stroller so that he could look.{pg}And we stood there for a good while, as he admired the birds.{pg}It was very heartwarming.{pg}So there are rays of sunshine here and there, from time to time.{pg}I grab onto these moments with both hands, and I will never let them go.{pg}They keep me sane.
+NAME crow dialog
+
+DLG h
+One thing that helps is to think about positives.{pg}And if there's one thing that having a baby teaches you immediately, it's time management.{pg}You suddenly realise that before you had all the time in the world{pg}and that most of that time was wasted because you had no perspective.{pg}You become more conscious of how you spend your time and attention{pg}and that's very valuable.
+NAME sundial dialog
+
+DLG i
+I'm not a huge fan of chess, but one thing I can't wait for{pg}is when I will be able to teach the little guy games{pg}and play with him.{pg}It's already amazing to watch him play with his cars and crayons.{pg}He invents stories, and gives the cars personalities, and then acts them out.{pg}Another thing I cling to with both hands.{pg}It makes the whole undertaking seem worth it in the long run.
+NAME chessboard dialog
 
 VAR thoughts
 0
