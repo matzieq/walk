@@ -5,7 +5,7 @@ A walk through the river valley
 ! ROOM_FORMAT 1
 
 PAL 0
-NAME blueprint
+NAME autumn
 24,29,26
 124,132,119
 211,228,211
@@ -117,25 +117,6 @@ ROOM 5
 NAME middle3
 EXT 11,15 4 11,0
 EXT 11,0 1 11,15
-PAL 0
-
-ROOM 6
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 PAL 0
 
 TIL a
@@ -366,7 +347,7 @@ SPR d
 00000000
 NAME bench
 DLG 5
-POS 4 8,9
+POS 4 9,2
 
 SPR e
 00000000
@@ -570,7 +551,13 @@ She looks exhausted, but also relieved that he's sleeping.{pg}Before having my o
 NAME woman dialog
 
 DLG 5
-I love this place. This bench just invites you to slow down and be present.{pg}I sit for a while, breathing in the fresh autumn air.{pg}If it weren't for this place, I think I'd have gone crazy a long time ago.{pg}I know I have it good, and that these are first world problems, but sometimes it's just so hard...{pg}Anyway, enough being gloomy, time to go.
+"""
+I love this place. This bench just invites you to slow down and be present.
+{pg}I sit for a while, breathing in the fresh autumn air.
+{pg}If it weren't for this place, I think I'd have gone crazy a long time ago.
+{pg}I know I have it good, and that these are first world problems, but sometimes it's just so hard...
+{pg}Anyway, enough being gloomy, time to go.
+"""
 NAME bench dialog
 
 DLG 6
@@ -624,7 +611,7 @@ I'm not a huge fan of chess, but one thing I can't wait for{pg}is when I will be
 NAME chessboard dialog
 
 DLG j
-This is the road home.{pg}My batteries have recharged a little. But it will get me through the day.{pg}We'll manage.{pg}And we'll become stronger thans to this experience.{pg}Time to go.
+This is the road home.{pg}My batteries have recharged a little. But it will get me through the day.{pg}We'll manage.{pg}And we'll become stronger thanks to this experience.{pg}Time to go.
 NAME sign2 dialog
 
 VAR thoughts
