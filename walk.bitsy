@@ -551,7 +551,7 @@ She looks exhausted, but also relieved that he's sleeping.{pg}Before having my o
 NAME woman dialog
 
 DLG 5
-I love this place. This bench just invites you to slow down and be present.{pg}I sit for a while, breathing in the fresh autumn air.{pg}If it weren't for this place, I think I'd have gone crazy a long time ago.{pg}I know I have it good, and that these are first world problems, but sometimes it's just so hard...{pg}Anyway, enough being gloomy, time to go.
+I love this place. This bench invites you to slow down and be present.{pg}I sit for a while, breathing in the fresh autumn air.{pg}If it weren't for this place, I think I'd have gone crazy a long time ago.{pg}I know I have it good, and that these are first world problems, but sometimes it's just so hard...{pg}Anyway, enough being gloomy, time to go.
 NAME bench dialog
 
 DLG 6
@@ -559,7 +559,7 @@ DLG 6
 NAME exit narration 1
 
 DLG 7
-I'm not sure whether it's even legal to pitch a tent here. Probably not.{pg}But sometimes I dream of pitching my own tent here and sleeping through the night.{pg}All night, just curl up in a sleeping bag and sleep, sleep, sleep.{pg}It's the lack of sleep that really gets to you.{pg}First you think that it's not so bad{pg}then you become irritable and permanently groggy{pg}and everything makes you irrationally angry.{pg}You feel you are slowly going insane{pg}and there's nothing you can do.
+I'm not sure whether it's even legal to pitch a tent here. Probably not.{pg}But sometimes I dream of pitching my own tent here and sleeping through the night.{pg}Just curl up in a sleeping bag and sleep, sleep, sleep.{pg}It's the lack of sleep that really gets to you.{pg}First you think that it's not so bad{pg}then you become irritable and permanently groggy{pg}and everything makes you irrationally angry.{pg}You feel you are slowly going insane{pg}and there's semmingly nothing you can do.
 NAME tent dialog
 
 DLG 8
@@ -567,15 +567,15 @@ This valley is a miracle.{pg}A high traffic road is just up the hill to the east
 NAME flowers1 dialog
 
 DLG 9
-I see other children differently now, too.{pg}Funny, how their yelling and running around stopped irritating me{pg}I just smile and move on.{pg}It's different for your own child, though.{pg}Sometimes the yelling and whining seems never to stop{pg}and it drives you crazy, because you WANT to give the baby what it wants{pg}Problem is, the baby itself doesn't know what it wants.{pg}And so you get angry, and start yelling yourself{pg}and then you calm down and feel like the worst human scum.{pg}The little human has feelings it doesn't understand{pg}and now you're angry at it for no apparent reason.{pg}And so everyone is miserable.{pg}Sigh...
+I see other children differently now, too.{pg}Funny, how their yelling stopped irritating me, I just smile and move on.{pg}But for your own child it's different.{pg}Sometimes the yelling and whining seems to never stop{pg}and it's maddening, as you WANT to give the baby what it wants{pg}Problem is, the baby itself doesn't know what it wants.{pg}And so you get angry, and start shouting{pg}and then you calm down and feel like the worst human scum.{pg}The little human has no idea what's happening{pg}and so, everyone is miserable.{pg}Sigh...
 NAME child dialog
 
 DLG a
-Our cat is the family therapist.{pg}With just a look she can switch you from{pg}"I've had enough" to "okay, let's keep on trudging forward".{pg}"I've had enough" is a thought you start having worryingly often.
+Our cat is the family therapist.{pg}With just a look she can switch you from the dangerous{pg}"I've had enough" to "okay, let's keep on trudging forward".{pg}"I've had enough" is a thought you start having worryingly often.{pg}It takes effort to snap out of it.
 NAME cat dialog
 
 DLG b
-The valley has a very nice long bike road, too.{pg}I used to bike here with my wife. Now we can't really do it.{pg}Another piece of our life we lost.{pg}She had it much worse than me, there were things I just couldn't help her with{pg}That helplesness is terrible,{pg}worse even than the tiredness{pg}And I really miss the biking...
+I used to bike here with my wife. Now we can't really do it.{pg}Another piece of our life we lost.{pg}She had it much worse than me, there were things I just couldn't help her with{pg}That helplesness is terrible, worse even than the tiredness.{pg}And I really miss the biking...
 NAME bike dialog
 
 DLG c
@@ -589,11 +589,11 @@ DLG e
  
 
 DLG f
-I know it will all pass and everything will return to normal at some point.{pg}In fact, I'm very much looking forward to it.{pg}But sometimes, deep down, I worry that when thing finally get normal{pg}I'll be too old and frail to do anything about it...
+I know it will all pass and everything will return to normal at some point.{pg}In fact, I'm very much looking forward to it.{pg}But sometimes, deep down, I worry that when things eventually get normal{pg}I'll be too old and frail to do appreciate it...
 NAME old man dialog
 
 DLG g
-There are a lot of crows here, especially in the autumn.{pg}One day we went here together with my son, and there was a giant tree covered with crows{pg}who were very loudly discussing some issues of utmost importance.{pg}The little guy was so fascinated, he told me to position his stroller so that he could look.{pg}And we stood there for a good while, as he admired the birds.{pg}It was very heartwarming.{pg}So there are rays of sunshine here and there, from time to time.{pg}I grab onto these moments with both hands, and I will never let them go.{pg}They keep me sane.
+There are a lot of crows here, especially in the autumn.{pg}One day we went here together with my son, and there was this giant tree covered with crows{pg}who were very loudly discussing some issues of importance.{pg}The little guy was so fascinated, he told me to position his stroller so that he could look.{pg}And we stood there for a good while, as he admired the birds.{pg}It was very heartwarming.{pg}So there are rays of sunshine here and there, from time to time.{pg}I grab onto these moments with both hands, and I will never let them go.{pg}They keep me sane.
 NAME crow dialog
 
 DLG h
@@ -601,12 +601,13 @@ It helps to think about positives.{pg}If there's one thing that having a baby te
 NAME sundial dialog
 
 DLG i
-One thing I can't wait for is to teach the little guy games{pg}and play with him.{pg}It's already amazing to watch him play with his cars and crayons.{pg}He invents stories, and gives the cars personalities, and then acts them out.{pg}Another thing I cling to with both hands.{pg}It makes the whole undertaking seem worth it in the long run.
+One thing I can't wait for is to teach the little guy games and play with him.{pg}It's already amazing to watch him play with his cars and trucks.{pg}He invents stories, gives the cars personalities, and then acts them out.{pg}Another thing I cling to with both hands.{pg}It makes the whole undertaking seem worth it in the long run.
 NAME chessboard dialog
 
 DLG j
-This is the road home.{pg}My batteries have recharged a little. But it will get me through the day.{pg}We'll manage.{pg}And we'll become stronger thanks to this experience.{pg}Time to go.
+This is the road home.{pg}My batteries have recharged a little. Enough to get me through the day.{pg}We'll manage.{pg}And we'll become stronger thanks to this experience.{pg}Time to go.
 NAME sign2 dialog
 
 VAR thoughts
 0
+
